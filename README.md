@@ -47,7 +47,7 @@ Leave blank this field "Copy Settings from an existing bucket".
 
 **Create Bucket**
 
-**Step 2 **- Upload Content of your Website
+**Step 2 ** - Upload Content of your Website
 Upload the website contents to your S3 bucket including sub-folders.
 
 For Example: You can use sample Website "Website" folder contents (provided in this repository).
@@ -59,7 +59,7 @@ images
 
 **Upload Contents**
 
-**Step 3 **- Add a Bucket Policy to allow Public Read Access
+**Step 3 ** - Add a Bucket Policy to allow Public Read Access
 Go to Permissions Tab and update Public Access Setting:
 
 Uncheck Manage public bucket policies:
@@ -73,7 +73,7 @@ Uncheck - Block public and cross-account access if bucket has public policies (R
 
 **Enable Website Hosting**
 
-**Step 5** - Access Your Website (Testing/Validation)
+**Step 4** - Access Your Website (Testing/Validation)
 Access the site in browser: http://{bucket-name}.s3-website-{AWS-Region}.amazonaws.com
 
 For Example: http://hostwebsite1208.s3-website.ap-south-1.amazonaws.com/#
